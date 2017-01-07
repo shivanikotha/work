@@ -1,0 +1,95 @@
+<html>
+<head>
+     <title>Forms</title>
+      <style type="text/css">
+           <label style="font-weight:bolder;margin:3px;"/>
+       </style>
+</head>
+<body>
+      <h1>Form elements </h1>
+      <hr>
+     <form>
+        <div style="padding:20px;">
+              <label style="display:block;"> user name </label>
+              <input type="text"name=" user name" placeholder="user name" style="width:20%"/>
+        </div> 
+        <div style="padding:20px;">
+             <label style="display:block;">e-mail</label>
+             <input type="e-mail" name="e-mail" placeholder="e-mail" style="width:20%"/>
+        </div>
+       <div style="padding:20px;">
+            <label style="display:block;">password</label>
+            <input type="password" name="password" placeholder="password" style="width:20%"/>
+        </div>
+       <div style="padding:20px;">
+            <label style="display:block;">address</label>
+            <textarea rows="7"style="width:40%">adress</textarea>
+       </div>
+       <div style="padding:20px;">
+            <select name="countries"style="width:20%">
+            <option value="null">_select your country _</option>
+            <option value="INDIA">INDIA</option>
+            <option value="US">US</option>
+            <option value="AFRICA">AFRICA</option>
+            <option value="JAPAN">JAPAN</option>
+            <option value="AUS">AUS</option>
+            <option value="UK">UK</option>
+            </select>
+       </div>
+       <div style="padding:20px;">
+            <label style="display:block;">known languages</label>
+            <input type="checkbox" value="Telugu"/>Telugu
+            <input type="checkbox" value="Hindi"/>Hindi
+            <input type="checkbox" value="English"/>English
+       </div>
+       <div style="padding:20px;">
+            <label style="display:block;">gender</label>
+            <input type="radio" name="Gender" value="Male"/>Male
+            <input type="radio" name="Gender" value="Female"/>Female
+            <input type="radio" name="Gender" value="Other"/>Other
+       </div>
+       <div style="padding:20px;">
+            <label style="display:block;">Marks</label>
+            <input type="radio" name="marks">90-100
+            <input type="radio" name="marks">80-90
+            <input type="radio" name="marks">70-80
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Percentage</label>
+            <input type="number" name="percentage" min="1" max="100" placeholder="enter percentage" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Month</label>
+            <input type="month" name="DOB" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Week</label>
+            <input type="Week" name="Week" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Date</label>
+            <input type="Date" name="Date" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Date Time</label>
+            <input type="Datetime-local" name="Date" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Mobile</label>
+            <input type="tel" name="Mobile" min="1" max="10" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">search</label>
+            <input type="search" name="search" style="width:40%;"/>
+      </div>
+      <div style="padding:20px;">
+            <label style="display:block;">Range</label>
+            <input type="range" name="range" min="1" max="10" style="width:20%;"/>
+      </div>
+      <div style="padding:20px;">
+           <input type="submit" name="submit" value="submit"/>
+           <input type="reset" name="reset" value="reset"/>
+      </div>
+  </form>
+</body>
+</html>
